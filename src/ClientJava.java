@@ -44,10 +44,14 @@ public class ClientJava {
                 
                 for(Push push : lstPush){
                 if(push != null ){
-                push.getAutor().getName();
-                push.getAutor().getDate();
+                System.out.println(push.getCommit().getauthor().getName());
+                System.out.println(push.getCommit().getauthor().getDate());
+                System.out.println(push.getCommit().getMessage());
                 
-                System.out.println(push);
+                
+               
+                
+               
                 
                 }
               
