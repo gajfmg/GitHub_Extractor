@@ -44,9 +44,10 @@ public class ClientJava {
                 
                 for(Push push : lstPush){
                 if(push != null ){
-                System.out.println(push.getCommit().getauthor().getName());
-                System.out.println(push.getCommit().getauthor().getDate());
-                System.out.println(push.getCommit().getMessage());
+                System.out.println("Nome:" + push.getCommit().getauthor().getName());
+                System.out.println("Data do commit:" +push.getCommit().getauthor().getDate());
+                System.out.println("Comentário:" +push.getCommit().getMessage());
+                System.out.println("\n");
                 
                 
                
